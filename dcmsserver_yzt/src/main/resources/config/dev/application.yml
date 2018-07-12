@@ -1,0 +1,24 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: dcmsServerYzt
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:18060/eureka/
+time :
+   timeStart  :  22
+   timeEnd  :  0
+url :
+   yztUrl: https://baidu.com/
+
+
+#server:
+#  ssl:
+#    key-password: 111111
+#    key-alias: yztKdy
+#    key-store-type: PKCS12
+#    key-store: classpath:hx_private.p12
